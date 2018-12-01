@@ -12,7 +12,7 @@ var prefix = ("sigbot!")
 
 
 bot.on('ready', function() {
-    bot.user.setUsername("NAME")
+    bot.user.setUsername("ChangedHistoryBot")
     bot.user.setPresence({ game: { name: 'Transfurrer quelques humains'}, status: 'online'})
     console.log("Connected")});
 
